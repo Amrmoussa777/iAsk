@@ -12,4 +12,4 @@
 
 
 
- <img src="iAsk/shot.png" width="400" height="790"> <img src="iAsk/shot2.png" width="400" height="790"
+ <img src="iAsk/shot.png" width="400" height="790">  <img src="iAsk/shot2.png" width="400" height="790">
