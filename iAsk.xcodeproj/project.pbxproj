@@ -13,6 +13,13 @@
 		1F5AB18A24391D4300575F53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AB18824391D4300575F53 /* Main.storyboard */; };
 		1F5AB18C24391D4600575F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AB18B24391D4600575F53 /* Assets.xcassets */; };
 		1F5AB18F24391D4600575F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AB18D24391D4600575F53 /* LaunchScreen.storyboard */; };
+		1F5AB1AD24393F8A00575F53 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5AB1AC24393F8A00575F53 /* Question.swift */; };
+		1F5AB1AF2439404100575F53 /* QuestionBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5AB1AE2439404100575F53 /* QuestionBrain.swift */; };
+		1F5AB1C124394C5E00575F53 /* tools in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AB1BC24394C5D00575F53 /* tools */; };
+		1F5AB1C224394C5E00575F53 /* land marks in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AB1BD24394C5D00575F53 /* land marks */; };
+		1F5AB1C324394C5E00575F53 /* flags in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AB1BE24394C5E00575F53 /* flags */; };
+		1F5AB1C424394C5E00575F53 /* animals in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AB1BF24394C5E00575F53 /* animals */; };
+		1F5AB1C524394C5E00575F53 /* planets in Resources */ = {isa = PBXBuildFile; fileRef = 1F5AB1C024394C5E00575F53 /* planets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		1F5AB18B24391D4600575F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F5AB18E24391D4600575F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F5AB19024391D4600575F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F5AB1AC24393F8A00575F53 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1F5AB1AE2439404100575F53 /* QuestionBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBrain.swift; sourceTree = "<group>"; };
+		1F5AB1BC24394C5D00575F53 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = "<group>"; };
+		1F5AB1BD24394C5D00575F53 /* land marks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "land marks"; sourceTree = "<group>"; };
+		1F5AB1BE24394C5E00575F53 /* flags */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flags; sourceTree = "<group>"; };
+		1F5AB1BF24394C5E00575F53 /* animals */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animals; sourceTree = "<group>"; };
+		1F5AB1C024394C5E00575F53 /* planets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = planets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +72,44 @@
 			children = (
 				1F5AB18224391D4300575F53 /* AppDelegate.swift */,
 				1F5AB18424391D4300575F53 /* SceneDelegate.swift */,
-				1F5AB18624391D4300575F53 /* ViewController.swift */,
-				1F5AB18824391D4300575F53 /* Main.storyboard */,
+				1F5AB19924392B4700575F53 /* model */,
+				1F5AB19724392B2B00575F53 /* controller */,
+				1F5AB19624392B2000575F53 /* view */,
 				1F5AB18B24391D4600575F53 /* Assets.xcassets */,
+				1F5AB1BF24394C5E00575F53 /* animals */,
+				1F5AB1BE24394C5E00575F53 /* flags */,
+				1F5AB1BD24394C5D00575F53 /* land marks */,
+				1F5AB1C024394C5E00575F53 /* planets */,
+				1F5AB1BC24394C5D00575F53 /* tools */,
 				1F5AB18D24391D4600575F53 /* LaunchScreen.storyboard */,
 				1F5AB19024391D4600575F53 /* Info.plist */,
 			);
 			path = iAsk;
+			sourceTree = "<group>";
+		};
+		1F5AB19624392B2000575F53 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1F5AB18824391D4300575F53 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1F5AB19724392B2B00575F53 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F5AB18624391D4300575F53 /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1F5AB19924392B4700575F53 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1F5AB1AC24393F8A00575F53 /* Question.swift */,
+				1F5AB1AE2439404100575F53 /* QuestionBrain.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +170,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5AB1C324394C5E00575F53 /* flags in Resources */,
 				1F5AB18F24391D4600575F53 /* LaunchScreen.storyboard in Resources */,
+				1F5AB1C424394C5E00575F53 /* animals in Resources */,
+				1F5AB1C224394C5E00575F53 /* land marks in Resources */,
 				1F5AB18C24391D4600575F53 /* Assets.xcassets in Resources */,
+				1F5AB1C124394C5E00575F53 /* tools in Resources */,
+				1F5AB1C524394C5E00575F53 /* planets in Resources */,
 				1F5AB18A24391D4300575F53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5AB18724391D4300575F53 /* ViewController.swift in Sources */,
+				1F5AB1AD24393F8A00575F53 /* Question.swift in Sources */,
 				1F5AB18324391D4300575F53 /* AppDelegate.swift in Sources */,
+				1F5AB1AF2439404100575F53 /* QuestionBrain.swift in Sources */,
 				1F5AB18524391D4300575F53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

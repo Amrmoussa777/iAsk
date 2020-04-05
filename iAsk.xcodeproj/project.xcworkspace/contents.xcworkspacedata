@@ -2,6 +2,16 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../../Downloads/pencil-1891732__480.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "New Group">
+   </Group>
+   <FileRef
       location = "self:iAsk.xcodeproj">
    </FileRef>
 </Workspace>
